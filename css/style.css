@@ -1,0 +1,205 @@
+body {
+  width: 100%;
+  margin: 1em 0;
+}
+body a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+body header img {
+  width: 7em;
+  height: 2em;
+  margin-left: 2em;
+}
+body header svg {
+  width: 1.5em;
+  margin-right: 2em;
+  margin-top: -0.1em;
+}
+body header nav {
+  display: none;
+}
+body .herosection {
+  width: 100%;
+  margin: 1em;
+  height: 50vh;
+  padding-top: 2rem;
+}
+body .herosection .heroinfo h1 {
+  font-family: poppins;
+  font-size: 3rem;
+  padding: 0em;
+  text-transform: capitalize;
+}
+body .herosection .heroinfo p {
+  font-size: 1.2rem;
+  font-family: poppins;
+}
+body .herosection .heroinfo .buttonsection {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .herosection .heroinfo .buttonsection .leftbutton {
+  color: white;
+  background: blue;
+  border: transparent;
+  padding: 0.8em 1.5em;
+  border-radius: 0.2em;
+  margin-right: 0.15em;
+}
+body .herosection .heroinfo .buttonsection .leftbutton:hover {
+  background: rgb(0, 0, 109);
+}
+body .herosection .heroinfo .buttonsection .rightbutton {
+  color: blue;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: 0.1em solid;
+  padding: 0.7em 1.5em;
+  margin-left: 0.15em;
+}
+body .herosection .heroinfo .buttonsection .rightbutton:hover {
+  background: blue;
+  color: white;
+}
+body section {
+  width: 100%;
+}
+body section h1.h1head {
+  font-size: 2.5rem;
+  font-family: poppins;
+  text-align: center;
+  text-transform: capitalize;
+}
+body section p.parahead {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: -1.5em;
+}
+body section .webdesigning {
+  text-align: center;
+  padding: 2em;
+  border: solid 0.1em rgb(238, 238, 238);
+  margin: 2em 4em;
+  border-radius: 2em;
+  -webkit-box-shadow: 1rem grey;
+          box-shadow: 1rem grey;
+  background-color: white;
+}
+body section .webdesigning img {
+  width: 2em;
+}
+body section .webdesigning h1 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+body section .webdesigning p {
+  font-size: 1.1rem;
+}
+body .graphicdesigning {
+  text-align: center;
+  padding: 2em;
+  border: solid 0.1em rgb(238, 238, 238);
+  margin: 2em 4em;
+  border-radius: 2em;
+  -webkit-box-shadow: 1rem grey;
+          box-shadow: 1rem grey;
+  background-color: white;
+}
+body .graphicdesigning img {
+  width: 2em;
+}
+body .graphicdesigning h1 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+body .graphicdesigning p {
+  font-size: 1.1rem;
+}
+body .marketer {
+  text-align: center;
+  padding: 2em;
+  border: solid 0.1em rgb(238, 238, 238);
+  margin: 2em 4em;
+  border-radius: 2em;
+  -webkit-box-shadow: 1rem grey;
+          box-shadow: 1rem grey;
+  background-color: white;
+}
+body .marketer img {
+  width: 2em;
+}
+body .marketer h1 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+body .marketer p {
+  font-size: 1.1rem;
+}
+body section.portfoliosection {
+  width: 100%;
+}
+body section.portfoliosection button {
+  background: blue;
+  color: white;
+  font-size: 1rem;
+  border: transparent;
+  padding: 0.7em 2.5em;
+  border-radius: 2em;
+  margin-top: 2em;
+  margin-left: 7.5em;
+}
+body section.portfoliosection h1 {
+  font-size: 2.5rem;
+  font-family: poppins;
+  text-align: center;
+  text-transform: capitalize;
+}
+body section.portfoliosection p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: -1.5em;
+}
+body section.portfoliosection .portfolio {
+  display: block;
+  margin: 0 2em;
+}
+body section.portfoliosection .portfolio .firstrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+body section.portfoliosection .portfolio .firstrow img {
+  width: 5em;
+  height: 4em;
+}
+body section.portfoliosection .portfolio .secondrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 0.5em;
+}
+body section.portfoliosection .portfolio .secondrow img {
+  width: 5em;
+  height: 4em;
+}
