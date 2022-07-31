@@ -97,7 +97,7 @@ body{
             text-align: center;
             padding: 2em;
             border: solid .1em rgb(238, 238, 238);
-            margin: 2em 4em;
+            margin: 2em 2em;
             border-radius: 2em;
             box-shadow: 1rem grey;
             background-color: white;
@@ -121,7 +121,7 @@ body{
         text-align: center;
         padding: 2em;
         border: solid .1em rgb(238, 238, 238);
-        margin: 2em 4em;
+        margin: 2em 2em;
         border-radius: 2em;
         box-shadow: 1rem grey;
         background-color: white;
@@ -144,7 +144,7 @@ body{
         text-align: center;
         padding: 2em;
         border: solid .1em rgb(238, 238, 238);
-        margin: 2em 4em;
+        margin: 2em 2em;
         border-radius: 2em;
         box-shadow: 1rem grey;
         background-color: white;
@@ -164,58 +164,42 @@ body{
     }
 
  section.portfoliosection{
-    width: 100%;
-    button{
-        background: blue;
-        color: white;
-        font-size: 1rem;
-        border: transparent;
-        padding: .7em 2.5em;
-        border-radius: 2em;
-        margin-top: 2em;
-        margin-left: 7.5em;
-        
-    }
-    h1{
-        font-size: 2.5rem;
-        font-family: poppins;
-        text-align: center;
-        text-transform: capitalize; 
-    }
-    p{
-        text-align: center;
-        font-size: 1.1rem;
-        margin-top: -1.5em;
-    }
-    .portfolio{
-        display: block;
-        margin: 0 2em;
-
+           width: 100%;
+        button{
+            background: blue;
+            color: white;
+            font-size: 1rem;
+            border: transparent;
+            padding: .7em 2.5em;
+            border-radius: 2em;
+            margin-top: 2em;
+            margin-left: 7.5em;
+            
+        }
+        h1{
+            font-size: 2.5rem;
+            font-family: poppins;
+            text-align: center;
+            text-transform: capitalize; 
+        }
+        p{
+            text-align: center;
+            font-size: 1.1rem;
+            margin-top: -1.5em;
+        }
         .firstrow{
-            display: flex;
-            justify-content: space-evenly;
-
+            
+            
             img{
-                width: 5em;
-                height: 4em;
-            }
-        }
-        .secondrow{
-             display: flex;
-             justify-content: space-evenly;
-             margin-top: .5em;
+                width: 90%;
+                height: 25vh;
+                display: block;
+                text-align: center;
+                margin: 0 1em;
 
-             img{
-                width: 5em;
-                height: 4em;
-            
-
-             }
-            
             }
-        }
+        }    
     }
 }
-
 
 
