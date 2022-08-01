@@ -190,47 +190,56 @@ body section.portfoliosection .portfoliobutton {
   margin-top: -4.5em;
 }
 body section.myexpertise h2 {
-  font-size: 2.5rem;
-  font-family: poppins;
+  font-size: 1.5rem;
   text-align: center;
   text-transform: capitalize;
+  margin-top: 3.5em;
 }
-body section.myexpertise p {
+body section.myexpertise p.subhead {
+  font-size: 1rem;
   text-align: center;
-  font-size: 1.1rem;
-  margin-top: -1.5em;
+}
+body section.myexpertise .expertiseimage {
+  display: block;
+  width: 90%;
+  height: 20vh;
+  -webkit-box-pack: ceneter;
+      -ms-flex-pack: ceneter;
+          justify-content: ceneter;
+  margin: 2em 0;
 }
 body section.myexpertise .expertiserating {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 2em;
-  margin-top: 2em;
-}
-body section.myexpertise .expertiserating h2 {
-  font-size: 1em;
-  text-align: left;
-  margin: 1em;
-  text-transform: capitalize;
+  margin: 0 2em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+  font-size: 1rem;
 }
 body section.myexpertise .expertiserating span {
-  color: rgb(0, 170, 0);
+  color: green;
 }
 body section.myexpertise .expertiserating .rightexpertiserating {
-  border-left: solid 0.1em rgb(218, 218, 218);
+  border-left: 0.1em solid rgb(224, 223, 223);
+  padding-left: 1em;
 }
 body section.myexpertise button {
-  margin: auto;
-  display: block;
-  text-align: center;
   border: transparent;
   padding: 1em 2em;
-  margin-top: 2em;
-  border-radius: 2em;
-  background-color: blue;
+  margin: 0 auto;
+  background: blue;
   color: white;
+  display: block;
+  margin-top: 2em;
 }
 body section.contact {
-  margin: 2em;
-  width: 100%;
+  margin: 0 2em;
+}
+body section.contact h2 {
+  font-size: 1.2em;
+  margin-top: 5em;
+  text-transform: capitalize;
 }

@@ -204,54 +204,56 @@ body{
 
         }        
     }
-
-    section.myexpertise{
-       
+        section.myexpertise{
         h2{
-            font-size: 2.5rem;
-            font-family: poppins;
+            font-size: 1.5rem;
             text-align: center;
-            text-transform: capitalize; 
+            text-transform: capitalize;
+            margin-top: 3.5em;
         }
-        p{
-            text-align: center;
-            font-size: 1.1rem;
-            margin-top: -1.5em;
+        p.subhead{
+            font-size: 1rem;
+            text-align: center; 
+        }
+        .expertiseimage{
+            display: block;
+            width: 90%;
+            height: 20vh;
+            justify-content: ceneter;
+            margin: 2em 0;
         }
         .expertiserating{
             display: flex;
-            gap: 2em;
-            margin-top: 2em;
-
-            h2{
-                font-size: 1em;
-                text-align: left;
-                margin: 1em;
-                text-transform: capitalize;
-            }
+            margin: 0 2em;
+            justify-content: space-between;
+            font-weight: bold;
+            font-size: 1rem;
             span{
-                color: rgb(0, 170, 0);
+                color: green;
             }
             .rightexpertiserating{
-                border-left: solid .1em rgb(218, 218, 218);
+                border-left: 0.1em solid rgb(224, 223, 223);
+                padding-left: 1em;
             }
         }
         button{
-            margin: auto;
-            display: block;
-            text-align: center;
             border: transparent;
             padding: 1em 2em;
-            margin-top: 2em;
-            border-radius: 2em;
-            background-color: blue;
+            margin: 0 auto;
+            background: blue;
             color: white;
+            display: block;
+            margin-top: 2em;
+
         }
     }
+
     section.contact{
-        margin: 2em;
-        width: 100%;
+        margin: 0 2em;
+        h2{
+            font-size: 1.2em;
+            margin-top: 5em;
+            text-transform: capitalize;
+        }
     }
 }
-
-
